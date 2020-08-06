@@ -11,6 +11,7 @@
       <span class="home-me__pub">{{ me.pubKey }}</span>
       <span class="home-me__copy" @click="copy">复制</span>
     </div>
+    <span class="home-reset" @click="reset">重置</span>
   </div>
 </template>
 
@@ -45,6 +46,10 @@ export default Vue.extend({
           type: "success"
         });
       });
+    },
+    reset() {
+      this.$db.setChatUser(null);
+      location.reload();
     }
   }
 });
@@ -92,6 +97,17 @@ export default Vue.extend({
       border-radius: 10px;
       padding: 0 10px;
     }
+  }
+  &-reset {
+    top: -30px;
+    right: 0;
+    position: absolute;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+    border: 1px solid #e4e7ed;
+    border-radius: 10px;
+    padding: 0 10px;
   }
 }
 </style>

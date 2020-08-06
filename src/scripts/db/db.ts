@@ -15,7 +15,7 @@ export class DB {
     this.db.defaults(dbDefault);
   }
 
-  public setChatUser(user: User) {
+  public setChatUser(user: User | null) {
     this.db.set("chatUser", user).write();
   }
 
