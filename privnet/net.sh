@@ -22,4 +22,9 @@ function start(){
     --shh
 }
 
+if [ ! -d "./store" ]; then
+  createAcc
+  init
+fi
+
 start
