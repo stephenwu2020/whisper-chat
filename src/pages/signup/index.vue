@@ -54,6 +54,9 @@ export default Vue.extend({
       return this.nick !== "" && this.head !== "";
     }
   },
+  async created() {
+    await this.$app.chat.init();
+  },
   methods: {
     selectHead(head: string) {
       this.head = head;
@@ -70,7 +73,7 @@ export default Vue.extend({
       user.pubKey = pubKey;
 
       this.$db.setChatUser(user);
-      this.$router.push({ path: "/chat" });
+      this.$router.push({ path: "/" });
     }
   }
 });

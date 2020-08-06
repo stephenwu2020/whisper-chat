@@ -16,7 +16,10 @@ function start(){
     --datadir ./store \
     --mine \
     --rpc \
-    --rpcapi eth,net,web3 
+    --wsapi eth,net,rpc,web3,shh \
+    --ws \
+    --wsorigins="*" \
+    --shh
 }
 
 start

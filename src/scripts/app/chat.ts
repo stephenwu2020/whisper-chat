@@ -11,7 +11,7 @@ export class Chat extends PluginApp {
 
     const user = this.$db.getChatUser();
     if (!user) {
-      this.$router.push({ path: "/chat/signup" });
+      this.$router.push({ path: "/signup" });
       return;
     }
     this.$store.commit("chat/setUser", user);

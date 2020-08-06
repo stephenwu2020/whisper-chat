@@ -1,8 +1,0 @@
-=============== Aug 6, 2020 (HKT) ===============
-17:18:16.592346 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
-17:18:16.724130 db@open opening
-17:18:16.731570 version@stat F·[] S·0B[] Sc·[]
-17:18:16.733509 db@janitor F·2 G·0
-17:18:16.733618 db@open done T·9.434075ms
-17:18:16.741781 db@close closing
-17:18:16.742032 db@close done T·248.327µs

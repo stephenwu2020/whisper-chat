@@ -28,8 +28,7 @@ export class SHH {
     this.symKeyID = "";
     this.symPasswd = "apple&banana";
     this.web3 = new Web3();
-    // this.nodeUrl = "ws://localhost:8546";
-    this.nodeUrl = "ws://192.168.0.111:8546";
+    this.nodeUrl = "ws://localhost:8546";
   }
 
   public async init() {
