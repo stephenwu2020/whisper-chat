@@ -30,6 +30,7 @@ yarn run serve
 - 在另一个浏览器新建一个账号
 
 ![other](https://github.com/stephenwu2020/whisper-chat/blob/master/tutorial/u2.png)
+![other2](https://github.com/stephenwu2020/whisper-chat/blob/master/tutorial/chat2png.png)
 - 私聊需要添加对方的地址，填写昵称
 
 ![priv](https://github.com/stephenwu2020/whisper-chat/blob/master/tutorial/privchat.png)
