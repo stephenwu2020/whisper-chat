@@ -22,7 +22,17 @@ yarn run serve
 - 浏览器访问: localhost:8080
 - 初次打开，会跳转至注册账号页面
 - 填写名称，选择头像，进入聊天界面
+
+![signup](https://github.com/stephenwu2020/whisper-chat/blob/master/tutorial/signup.png)
 - 默认有3个群聊频道
+
+![groups](https://github.com/stephenwu2020/whisper-chat/blob/master/tutorial/group.png)
 - 在另一个浏览器新建一个账号
+
+![other](https://github.com/stephenwu2020/whisper-chat/blob/master/tutorial/u2.png)
 - 私聊需要添加对方的地址，填写昵称
+
+![priv](https://github.com/stephenwu2020/whisper-chat/blob/master/tutorial/privchat.png)
+
+![priv2](https://github.com/stephenwu2020/whisper-chat/blob/master/tutorial/privchat2.png)
 - 清理账号信息，点击右上角的重置
